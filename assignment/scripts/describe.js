@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The first line of code is setting the value of the variable 'name' to 'Dane'
+// The second line is setting a conditional of if the variable name is exactly equal to 'Mary'
+// If the conditional is true it outputs 'Hi, Mary!' in the console log
+// Otherwise it outputs 'How do you do?' in the console log
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the code is setting the value of varibale 'code' to '123' and secret is equal to the conditional based off of 'code'
+// if code is equal to '123' then 'secret' becomes 'super' and code is multiplied by 2
+// if code is greater than 250 then secret becomes 'duper'
+// the last line is a console log of 'secret' to see what the output is
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the first lines are setting the value of the variables isStudent, age, and zip
+// the next line is checking if isStudent is true and if zip is greater than 80000, if they are both true then the console log statement will output
+// if it is not met the next line then checks whether isStudent is false or age is less than 30, if one is true then the console log statement will output
+// if it is not met the next line then checks if isStudent is true, if it is the console log outputs. 
+// if it is not met still then the final console log statement will output.
 
 //CODE
 /*
@@ -128,6 +129,7 @@ if (number >= 2) {
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
+// -- FIX -- only colorOne is being set to 'purple' when in the description both were supposed to be set to 'purple'
 
 /*
 let colorOne = 'red';
@@ -142,6 +144,7 @@ if (mix === true) {
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
+// -- FIX -- In the description it states that both variables have to be true for console.log to output but the code has || instead of &&, which means OR instead of AND
 
 /*
 let temp = 40;
@@ -155,6 +158,7 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+// --FIX-- the console.log statements need to be switched, otherwise it will say 'no entry' to people who are old enough and 'enter' to people who are too young
 
 /*
 let age = 21;
