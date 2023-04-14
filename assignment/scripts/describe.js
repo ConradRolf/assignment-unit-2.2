@@ -28,8 +28,8 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // The first line of code is setting the value of the variable 'name' to 'Dane'
 // The second line is setting a conditional of if the variable name is exactly equal to 'Mary'
-// If the conditional is true it outputs 'Hi, Mary!' in the console log
-// Otherwise it outputs 'How do you do?' in the console log
+// If the conditional is true it outputs a console log of 'Hi, Mary!' in the console
+// Otherwise it outputs a console log of 'How do you do?' in the console
 
 //CODE
 /*
@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // the code is setting the value of varibale 'code' to '123' and secret is equal to the conditional based off of 'code'
 // if code is equal to '123' then 'secret' becomes 'super' and code is multiplied by 2
 // if code is greater than 250 then secret becomes 'duper'
-// the last line is a console log of 'secret' to see what the output is
+// the last line is a console log of 'secret' which will output 'super' in the console
 
 //CODE
 /*
@@ -71,10 +71,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // the first lines are setting the value of the variables isStudent, age, and zip
-// the next line is checking if isStudent is true and if zip is greater than 80000, if they are both true then the console log statement will output
-// if it is not met the next line then checks whether isStudent is false or age is less than 30, if one is true then the console log statement will output
-// if it is not met the next line then checks if isStudent is true, if it is the console log outputs. 
-// if it is not met still then the final console log statement will output.
+// the next line is checking if isStudent is true and if zip is greater than 80000, if they are both true then the console log 'You're a student on the west coast!' statement will output in the console
+// if it is not met the next line then checks whether isStudent is false or age is less than 30, if one is true then the console log will output 'What are your hobbies?' in the console
+// if it is not met the next line then checks if isStudent is true, if it is the console log outputs 'Welcome to prime!' 
+// if it is not met still then the final console log statement will output 'How about the weather?'
 
 //CODE
 /*
@@ -130,6 +130,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 // -- FIX -- only colorOne is being set to 'purple' when in the description both were supposed to be set to 'purple'
+// -- FIX -- The variables are also swapped in the description vs the actual code. colorOne should be blue and colorTwo should be red.
 
 /*
 let colorOne = 'red';
